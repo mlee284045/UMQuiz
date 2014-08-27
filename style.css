@@ -2,12 +2,12 @@
 
 body {
     font-family: 'Crimson Text', serif;
-    background-color: #00688B;
+    background-color: #00274C;
 }
 
 div {
     text-align: center;
-    background-color: #FFFF00;
+    background-color: #ffcb05;
     border-radius: 5px;
     margin-top: 5px;
     padding-left: 2%;
@@ -16,8 +16,10 @@ div {
 .progress {
     clear: both;
     position: relative;
+    border: 1px #655a52 solid;
     width: 50%;
     margin-left: 23%;
+    margin-bottom: 2%;
     padding-bottom: 1%;
 }
 
@@ -27,6 +29,7 @@ div {
     width: 50%;
     margin-left: 23%;
     padding-bottom: 2%;
+    border: 1px #655a52 solid;
 }
 .content div {
     padding:0px 10px 0 10px;
@@ -34,7 +37,8 @@ div {
 
 .questionCont {
     border-radius: 0px;
-    border: 1px black solid;
+    margin-bottom: 2%;
+    padding-bottom: 2%;
 }
 
 .answerCont div {
