@@ -73,7 +73,7 @@ $(function() {
       $('#correctResults').html(checkAnswers(corAnswerList, userAnswerList));
       $('.results').show();
     }
-    else if (nav !=0 && $('input:checked').val() == undefined) {
+    else if (nav !=-1 && $('input:checked').val() == undefined) {
       alert('you haven\'t picked an answer yet');
     }
     else {

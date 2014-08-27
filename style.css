@@ -1,0 +1,63 @@
+@import url(http://fonts.googleapis.com/css?family=Crimson+Text|Playfair+Display+SC);
+
+body {
+    font-family: 'Crimson Text', serif;
+    background-color: #00688B;
+}
+
+div {
+    text-align: center;
+    background-color: #FFFF00;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.progress {
+    clear: both;
+    position: relative;
+    width: 50%;
+    margin-left: 23%;
+    padding-bottom: 1%;
+}
+
+.content, .results {
+    float:left;
+    clear: both;
+    width: 50%;
+    margin-left: 23%;
+    padding-bottom: 2%;
+}
+.content div {
+    padding:0px 10px 0 10px;
+}
+
+.questionCont {
+    border-radius: 0px;
+    border: 1px black solid;
+}
+
+.answerCont div {
+    padding-left: 10%;
+    text-align: left;
+    margin-left: 0px;
+}
+
+.navigation {
+    clear: both;
+    background-color: transparent;
+    width: 50%;
+    margin-left: 23%;
+}
+.header {
+    clear: both;
+    width: 90%;
+    margin-left:3%;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: 'Playfair Display SC', serif;
+    font: blue;
+}
